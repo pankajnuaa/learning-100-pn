@@ -14,7 +14,7 @@ function doMath() {
     const n1 = num1.valueAsNumber;
     const n2 = num2.valueAsNumber;
 
-    answer.innerText = (calculate(n1, n2, operand.value));
+    answer.innerText = (calculate(n1, n2, operand.value)).toString();
 }
 mathButton.addEventListener('click', doMath);
 
